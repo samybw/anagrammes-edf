@@ -6,6 +6,7 @@ const argument = arg.map((element) => {
 })
 
 
+
 const data = fs.readFileSync('dictionnaire.txt', 'UTF-8');
 const tableaufile = data.split(/\r?\n/).map((element) => { 
     var newElement = element ;
